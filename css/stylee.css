@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #1b1b1b, #3b2f2f, #87ceeb);
+    color: rgb(13, 16, 197);
+    text-align: center;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 28px;
+}
+
+.header p{
+    opacity: 0.8;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.panel{
+    background: rgba(82, 81, 81, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.escenario{
+    height: 350px;
+    width: 100%;
+    border: 2px solid rgba(255,255,255,0.3);
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: linear-gradient(to top, #2c1a10, #33ff00);
+}
+
+.cohete{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease;
+}
+
+#imgCohete{
+    width: 70px;
+}
+
+.info h3{
+    margin: 5px 0;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #3cd8ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background: #efff0b;
+    transform: scale(1.05);
+}
+
+#resultado{
+    margin-top: 10px;
+}
